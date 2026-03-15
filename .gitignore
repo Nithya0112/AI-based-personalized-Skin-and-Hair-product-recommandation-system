@@ -1,0 +1,7 @@
+venv/
+.venv/
+mlmodel/venv/
+mlmodel/.venv/
+__pycache__/
+node_modules/
+*.h5
