@@ -1,0 +1,29 @@
+.how{
+text-align:center;
+background:#f8fbff;
+}
+
+.how h2{
+font-size:32px;
+margin-bottom:50px;
+}
+
+.steps{
+display:flex;
+justify-content:center;
+gap:50px;
+}
+
+.step{
+background:white;
+padding:30px;
+width:200px;
+border-radius:12px;
+box-shadow:0 5px 12px rgba(0,0,0,0.1);
+}
+
+.step h3{
+font-size:32px;
+margin-bottom:10px;
+color:#1e2f97;
+}

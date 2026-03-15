@@ -1,0 +1,29 @@
+.categories{
+text-align:center;
+background:white;
+}
+
+.categories h2{
+margin-bottom:40px;
+}
+
+.category-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+}
+
+.category{
+background:#1e2f97;
+color:white;
+padding:40px 20px;
+border-radius:10px;
+font-weight:600;
+font-size:18px;
+transition:0.3s;
+}
+
+.category:hover{
+background:#16237a;
+transform:scale(1.05);
+}

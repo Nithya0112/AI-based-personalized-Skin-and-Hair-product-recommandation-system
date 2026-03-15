@@ -1,0 +1,31 @@
+.footer{
+background:#1e2f97;
+color:white;
+padding:60px 8%;
+}
+
+.footer-content{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:40px;
+margin-bottom:30px;
+}
+
+.footer h3{
+margin-bottom:10px;
+}
+
+.footer h4{
+margin-bottom:10px;
+}
+
+.footer p{
+font-size:14px;
+}
+
+.copyright{
+text-align:center;
+border-top:1px solid rgba(255,255,255,0.3);
+padding-top:15px;
+font-size:13px;
+}

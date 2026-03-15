@@ -1,0 +1,32 @@
+.features{
+text-align:center;
+background:white;
+}
+
+.features h2{
+font-size:32px;
+margin-bottom:50px;
+}
+
+.feature-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:40px;
+}
+
+.feature{
+background:#f8fbff;
+padding:35px;
+border-radius:12px;
+box-shadow:0 5px 12px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.feature:hover{
+transform:translateY(-5px);
+}
+
+.feature h3{
+margin-top:15px;
+margin-bottom:10px;
+}

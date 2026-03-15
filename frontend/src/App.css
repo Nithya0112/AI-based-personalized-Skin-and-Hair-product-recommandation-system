@@ -1,0 +1,28 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+background:#f7f9fc;
+color:#333;
+}
+
+section{
+padding:80px 8%;
+}
+
+h1,h2,h3{
+color:#1e2f97;
+}
+
+button{
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+opacity:0.9;
+}

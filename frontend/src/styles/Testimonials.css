@@ -1,0 +1,28 @@
+.testimonials{
+background:#f8fbff;
+text-align:center;
+}
+
+.reviews{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+}
+
+.review{
+background:white;
+padding:30px;
+border-radius:12px;
+width:300px;
+box-shadow:0 5px 12px rgba(0,0,0,0.1);
+}
+
+.review p{
+font-style:italic;
+margin-bottom:15px;
+}
+
+.review h4{
+color:#1e2f97;
+}
