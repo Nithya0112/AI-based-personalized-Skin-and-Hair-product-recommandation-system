@@ -1,0 +1,157 @@
+/* .camera-full {
+  height: 100vh;
+  width: 100vw;
+  background: black;
+  position: relative;
+  overflow: hidden;
+}
+
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.exit-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 8px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.capture-btn {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: white;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+.preview-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.preview-screen img {
+  width: 90%;
+  max-width: 400px;
+  border-radius: 15px;
+}
+
+
+.bottom-actions {
+  margin-top: 20px;
+}
+
+.bottom-actions button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+} */
+ /* 🔥 REMOVE GLOBAL BODY SPACE ONLY FOR CAMERA PAGE */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* FULL SCREEN CAMERA */
+.camera-full {
+  position: fixed;   /* 👈 important fix */
+  top: 0;            /* 👈 removes white space */
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: black;
+  overflow: hidden;
+  z-index: 9999;     /* 👈 ensures it stays above everything */
+}
+
+/* Full video */
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Exit */
+.exit-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 8px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Capture */
+.capture-btn {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: white;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Preview */
+.preview-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.preview-screen img {
+  width: 90%;
+  max-width: 400px;
+  border-radius: 15px;
+}
+
+/* Buttons */
+.bottom-actions {
+  margin-top: 20px;
+}
+
+.bottom-actions button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
