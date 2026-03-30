@@ -1,27 +1,3 @@
-// import React from "react";
-// import "../styles/Navbar.css";
-// import { FaSearch } from "react-icons/fa";
-
-// function Navbar({ setShowProducts }) {
-//   return (
-//     <header className="navbar">
-//       <div className="logo">AI SkinCare</div>
-
-//       <nav className="nav-links">
-//         <a href="#home" onClick={() => setShowProducts(false)}>Home</a>
-
-//         <a href="#products" onClick={() => setShowProducts(true)}>
-//           Products
-//         </a>
-
-//         <a href="#features" onClick={() => setShowProducts(false)}>Haircare</a>
-//         <a href="#tips" onClick={() => setShowProducts(false)}>Skin Tips</a>
-//         <a href="#about" onClick={() => setShowProducts(false)}>About</a>
-//       </nav>
-//     </header>
-//   );
-// }
-// export default Navbar;
 
 import React from "react";
 import "../styles/Navbar.css";
@@ -49,7 +25,7 @@ function Navbar() {
          </a>
 
         <a onClick={() => navigate("/")}>Haircare</a>
-        <a onClick={() => navigate("/")}>Skin Tips</a>
+        <a onClick={() => navigate("/skincare-tips")}>Skin Tips</a>
         <a onClick={() => navigate("/")}>About</a>
 
       </nav>
